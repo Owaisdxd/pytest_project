@@ -8,10 +8,10 @@ def setup_function(function):       #this function will run before the tetsing o
 def teardown_function(function):    #this function will run before ending the test of every function
   print("Ending function testing")
 
-def setup_module(module):
+def setup_module(module):   #this function will run before starting the whole test
   print("Starting the test")
 
-def teardown_module(module):
+def teardown_module(module):  #this function will run before ending the whole test
   print("Ending the test")
 
 def test1():
