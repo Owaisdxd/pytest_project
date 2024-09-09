@@ -1,10 +1,11 @@
 #what is test fixture
 import pytest
 
-
-def setup_function(function):
+#setup_function is a keyword
+def setup_function(function):       #this function will run before the tetsing of each function
   print("Starting to test function")
-def teardown_function(function):
+#teardown_fucntion is keyword
+def teardown_function(function):    #this function will run before ending the test of every function
   print("Ending function testing")
 
 def setup_module(module):
