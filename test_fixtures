@@ -1,0 +1,19 @@
+#what is test fixture
+import pytest
+
+
+def setup_function(function):
+  print("Starting to test function")
+def teardown_function(function):
+  print("Ending function testing")
+
+def setup_module(module):
+  print("Starting the test")
+
+def teardown_module(module):
+  print("Ending the test")
+
+def test1():
+  print("Test one")
+def test2():
+  print("test 2")
